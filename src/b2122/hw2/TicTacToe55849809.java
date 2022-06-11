@@ -22,7 +22,7 @@ public class TicTacToe55849809 implements TicTacToe {
     private int gridSize;         //to help keep track of the size of the grid across all fucntions
 
     public TicTacToe55849809() {
-        board = new String[4][4];
+        board = new String[3][3];
         currentPlayer = Player.X;     //initializing the first player to be X
     }
 
